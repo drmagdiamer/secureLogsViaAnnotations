@@ -12,14 +12,18 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class SecurePerson extends DtoLogSecurity {
-    @Unrestricted(order = 2)
-    private String firstName;
-    @Masked(order = 3)
-    private String lastName;
-    @Masked(order = 6, maskName = "ccMasker")
-    private String dateOfBirth;
-    @Masked(order = 4, maskName = "ssnMasker")
-    private String ssn;
-    @Encrypted(order = 1)
-    private String customerId;
+  @Unrestricted(order = 2)
+  private String firstName;
+
+  @Masked(order = 3)
+  private String lastName;
+
+  @Masked(order = 6, maskName = "ccMasker")
+  private String dateOfBirth;
+
+  @Masked(order = 4, maskName = "ssnMasker")
+  private String ssn;
+
+  @Encrypted(order = 1)
+  private String customerId;
 }

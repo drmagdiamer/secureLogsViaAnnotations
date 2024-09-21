@@ -8,9 +8,9 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Person {
-    private String firstName;
-    private String lastName;
-    private String dateOfBirth;
-    private String ssn;
-    private String customerId;
+  private String firstName;
+  private String lastName;
+  private String dateOfBirth;
+  private String ssn;
+  private String customerId;
 }

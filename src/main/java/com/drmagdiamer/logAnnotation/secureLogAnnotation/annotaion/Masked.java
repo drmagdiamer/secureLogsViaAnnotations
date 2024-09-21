@@ -7,6 +7,7 @@ import java.lang.annotation.*;
 @Target(ElementType.FIELD)
 @LogSecurityAnnotationAccessType
 public @interface Masked {
-    public int order() default Integer.MAX_VALUE ;
-    public String maskName() default "";
+  public int order() default Integer.MAX_VALUE;
+
+  public String maskName() default "";
 }

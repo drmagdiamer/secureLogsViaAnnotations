@@ -7,5 +7,5 @@ import java.lang.annotation.*;
 @Target(ElementType.FIELD)
 @LogSecurityAnnotationAccessType
 public @interface Encrypted {
-    public int order() default Integer.MAX_VALUE ;
+  public int order() default Integer.MAX_VALUE;
 }
