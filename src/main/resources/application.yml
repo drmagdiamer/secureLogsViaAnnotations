@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Securing Logs Using Java Annotations
+
+server:
+    port: 8080
