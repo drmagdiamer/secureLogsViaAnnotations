@@ -5,6 +5,9 @@ import com.drmagdiamer.logAnnotation.secureLogAnnotation.annotaion.Masked;
 import com.drmagdiamer.logAnnotation.secureLogAnnotation.annotaion.Unrestricted;
 import com.drmagdiamer.logAnnotation.secureLogAnnotation.definition.LogSecurityEncoder;
 import com.drmagdiamer.logAnnotation.secureLogAnnotation.definition.LogSecurityMasker;
+import com.drmagdiamer.logAnnotation.secureLogAnnotation.encryptor.DefaultEncryptor;
+import com.drmagdiamer.logAnnotation.secureLogAnnotation.masker.DefaultMasker;
+
 import java.lang.reflect.Field;
 import java.util.*;
 

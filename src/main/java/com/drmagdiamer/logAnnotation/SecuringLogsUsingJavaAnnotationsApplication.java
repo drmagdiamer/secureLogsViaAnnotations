@@ -1,8 +1,8 @@
 package com.drmagdiamer.logAnnotation;
 
-import com.drmagdiamer.logAnnotation.secureLogAnnotation.core.CreditCardMasker;
+import com.drmagdiamer.logAnnotation.secureLogAnnotation.masker.CreditCardMasker;
 import com.drmagdiamer.logAnnotation.secureLogAnnotation.core.DtoLogSecurity;
-import com.drmagdiamer.logAnnotation.secureLogAnnotation.core.SSNMasker;
+import com.drmagdiamer.logAnnotation.secureLogAnnotation.masker.SSNMasker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

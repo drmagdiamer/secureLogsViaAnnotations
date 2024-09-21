@@ -1,4 +1,4 @@
-package com.drmagdiamer.logAnnotation.secureLogAnnotation.core;
+package com.drmagdiamer.logAnnotation.secureLogAnnotation.encryptor;
 
 import com.drmagdiamer.logAnnotation.secureLogAnnotation.definition.LogSecurityEncoder;
 import com.drmagdiamer.logAnnotation.util.EncoderHelper;

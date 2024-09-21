@@ -9,3 +9,4 @@ import java.lang.annotation.*;
 public @interface Encrypted {
   public int order() default Integer.MAX_VALUE;
 }
+
